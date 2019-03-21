@@ -1,0 +1,26 @@
+{
+  "name": "ts-webpack-tree-shaking",
+  "version": "0.0.1",
+  "description": "Example of TypeScript + tslint + webpack 4 + tree-shaking",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development"
+  },
+  "dependencies": {
+    "fork-ts-checker-webpack-plugin": "1.0.0",
+    "path": "0.12.7",
+    "thread-loader": "2.1.2",
+    "ts-loader": "5.3.3",
+    "tslint": "5.14.0",
+    "tslint-eslint-rules": "5.4.0",
+    "typescript": "3.2.4",
+    "typescript-tslint-plugin": "0.3.1",
+    "uglifyjs-webpack-plugin": "2.1.2",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  },
+  "author": {
+    "name": "Steven Ihan",
+    "email": "me@stevenihan.com"
+  }
+}
